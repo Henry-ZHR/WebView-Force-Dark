@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="moe.henry_zhr.webview_forcedark">
+
+  <application
+    android:label="WebView Force Dark"
+    tools:ignore="AllowBackup,MissingApplicationIcon">
+    <meta-data
+      android:name="xposedmodule"
+      android:value="true" />
+    <meta-data
+      android:name="xposedminversion"
+      android:value="53" />
+    <meta-data
+      android:name="xposeddescription"
+      android:value="Force enable Force Dark for WebView" />
+  </application>
+
+</manifest>
